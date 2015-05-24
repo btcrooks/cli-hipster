@@ -10,16 +10,16 @@ List of common bash/shell commands
 ## Managing Directories and Files
 ### Delete
 ###### File
-   $ rm file.txt  
+    $ rm file.txt  
 ###### Directory
-   $ rm -rf directory/  
+    $ rm -rf directory/  
 
 ## Misc
 ###### Last command
-   [Up Arrow]
+    [Up Arrow]
 ###### Autocompletion
    [tab]
 ###### Home Directory
-   "~/"
+    "~/"
 ###### Prepend Previous Command
-   $ <command> !!
+    $ <command> !!
