@@ -3,9 +3,9 @@ List of common bash/shell commands
 
 ## Navigation  
 ###### User/Desktop  
-   $ cd ~/Desktop  
+    $ cd ~/Desktop  
 ###### Up one leve  
-   $ cd ../  
+    $ cd ../  
 
 ## Managing Directories and Files
 ### Delete
