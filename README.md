@@ -28,7 +28,7 @@ List of common bash/shell commands
 ###### Last command  
     [Up Arrow]
 ###### Autocompletion  
-   [tab]  
+    [tab]  
 ###### Home Directory  
     "~/"
 ###### Prepend Previous Command  
