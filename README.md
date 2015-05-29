@@ -20,6 +20,8 @@ List of common bash/shell commands
     $ touch file.txt
 ###### Directory  
     $ mkdir directory_name
+###### Directory with spaces in the file name
+    $ mkdir directory\ with\ spaces
 ### Search
 ###### Searching for files and directories
     $ find
