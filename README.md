@@ -46,7 +46,7 @@ Cheat sheet of common bash/shell commands
 ### Search
 ###### Search for files within a directory
     $ find <dir> -iname "Search Term"
- - Example: Search for all files ending with **.txt** on the **Desktop**
+Example: Search for all files ending with **.txt** on the **Desktop**
 `$ find ~/Desktop -name "*.txt"`
 ##### Search
     $ mdfind
