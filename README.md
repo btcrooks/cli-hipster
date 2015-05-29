@@ -1,5 +1,5 @@
 # cli-hipster  
-List of common bash/shell commands  
+Cheat sheet of common bash/shell commands  
 
 ## Navigation  
 ###### User/Desktop  
