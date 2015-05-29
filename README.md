@@ -41,3 +41,5 @@ Cheat sheet of common bash/shell commands
     $ <command> !!
 ###### Append Previous Command
     $ !! <command>
+# Roadmap
+* Using Man Pages
