@@ -14,21 +14,25 @@ Cheat sheet of common bash/shell commands
     $ ls
 ###### View Current Working Directory  
     $ pwd
+
 ### Copy
 ###### File
     $ cp file.txt
 ###### Directory
     $ cp path/to/directory
+
 ### Move
 ###### File
     $ mv file.txt /new_dir/file.txt
 ###### Directory
     $ mv directory /new/directory
+
 ### Rename
 ###### File
     $ mv file.txt new.txt
 ###### Directory
     $ mv directory new_directory_name
+
 ### Delete
 ###### File
     $ rm file.txt
@@ -36,6 +40,7 @@ Cheat sheet of common bash/shell commands
     $ rm *.txt
 ###### Directory
     $ rm -rf directory/
+
 ### Create  
 ###### File  
     $ touch file.txt
@@ -43,6 +48,12 @@ Cheat sheet of common bash/shell commands
     $ mkdir directory_name
 ###### Directory with spaces in the file name
     $ mkdir directory\ with\ spaces
+
+### View
+###### View contents of a file containing plain text.
+    $ less file.txt
+press `q` to exit less
+
 ### Search
 ###### Search for files within a directory
     $ find <dir> -iname "Search Term"
