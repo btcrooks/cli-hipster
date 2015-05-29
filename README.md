@@ -20,6 +20,10 @@ List of common bash/shell commands
     $ touch file.txt
 ###### Directory  
     $ mkdir directory_name
+### Search
+###### Searching for files and directories
+    $ find
+    $ mdfind
 ### Other
 ###### Current Working Directory  
     $ echo $PWD
