@@ -83,5 +83,6 @@ Example:`$ find ~/Desktop -name "*.txt"`
     $ !! <command>
 
 # Roadmap
+* Table of Contents
 * Using Man Pages
 * Using wildcards `*`
