@@ -1,6 +1,6 @@
 # cli-hipster  
-###### Cheat sheet of common bash/shell commands.
-This cheat sheet was intended for **Mac OS X** users. Some commands may differ for Linux.
+Cheat sheet of common bash/shell commands.  
+This cheat sheet was intended for **Mac OS X** users. Some commands may differ for Linux.  
 
 ## Navigation  
 ###### Change Directory  
