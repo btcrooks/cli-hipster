@@ -42,8 +42,12 @@ Cheat sheet of common bash/shell commands
     $ rm -rf directory/
 
 ### Create  
-###### File  
+###### Empty file  
     $ touch file.txt
+###### Create a file with text  
+    $ echo "Some text here" > some_file.txt
+If the file name exists, bash will overwrite the existing file with the new text. To **append** data to an existing file, use a double cheveron `>>`.  
+Example: `$ echo "New text to append." >> existing_file.txt`
 ###### Directory  
     $ mkdir directory_name
 ###### Directory with spaces in the file name
@@ -61,6 +65,8 @@ Example: Search for all files ending with **.txt** on the **Desktop**
 `$ find ~/Desktop -name "*.txt"`
 ##### Search
     $ mdfind
+
+### Modify Contents
 
 ## Misc  
 ###### Last command  
