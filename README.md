@@ -1,6 +1,6 @@
 # cli-hipster  
 Cheat sheet of common bash/shell commands.  
-This cheat sheet was intended for **Mac OS X** users. Some commands may differ for Linux.  
+This cheat sheet is intended for **Mac OS X** users. Some commands may differ on Linux.  
 
 ## Navigation  
 ###### Change Directory  
@@ -24,7 +24,7 @@ This cheat sheet was intended for **Mac OS X** users. Some commands may differ f
 
 ### Move
 ###### File
-    $ mv file.txt /new_dir/file.txt
+    $ mv file.txt new_dir/file.txt
 ###### Directory
     $ mv directory /new/directory
 
@@ -58,13 +58,15 @@ Example" `$ mkdir directory\ with\ spaces`
 ### View
 ###### View contents of a file containing plain text.
     $ less file.txt
-press `q` to exit less
+Press `q` to exit less. Use `more` or `cat` to display file contents within the prompt window.  
+Example: `$ more file.txt`
+
 
 ### Search
 ###### Search for files within a directory
     $ find <dir> -iname "Search Term"
-Example: Search for all files ending with **.txt** on the **Desktop**
-`$ find ~/Desktop -name "*.txt"`
+Search for all files ending with **.txt** on the **Desktop**  
+Example:`$ find ~/Desktop -name "*.txt"`  
 ##### Search
     $ mdfind
 
@@ -82,3 +84,4 @@ Example: Search for all files ending with **.txt** on the **Desktop**
 
 # Roadmap
 * Using Man Pages
+* Using wildcards `*`
