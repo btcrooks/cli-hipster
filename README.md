@@ -1,5 +1,6 @@
 # cli-hipster  
-Cheat sheet of common bash/shell commands  
+###### Cheat sheet of common bash/shell commands.
+Although these commands work across linux distro's, this cheat sheet was intended for **Mac OS X** users.
 
 ## Navigation  
 ###### Change Directory  
@@ -42,16 +43,17 @@ Cheat sheet of common bash/shell commands
     $ rm -rf directory/
 
 ### Create  
-###### Empty file  
+###### Create an empty file  
     $ touch file.txt
 ###### Create a file with text  
     $ echo "Some text here" > some_file.txt
 If the file name exists, bash will overwrite the existing file with the new text. To **append** data to an existing file, use a double cheveron `>>`.  
 Example: `$ echo "New text to append." >> existing_file.txt`
+
 ###### Directory  
     $ mkdir directory_name
-###### Directory with spaces in the file name
-    $ mkdir directory\ with\ spaces
+To create a new directory with spaces in the file name, use back slashes `\` to escape each spaces.
+Example" `$ mkdir directory\ with\ spaces`
 
 ### View
 ###### View contents of a file containing plain text.
@@ -66,8 +68,6 @@ Example: Search for all files ending with **.txt** on the **Desktop**
 ##### Search
     $ mdfind
 
-### Modify Contents
-
 ## Misc  
 ###### Last command  
     [Up Arrow]
@@ -79,5 +79,6 @@ Example: Search for all files ending with **.txt** on the **Desktop**
     $ <command> !!
 ###### Append Previous Command
     $ !! <command>
+
 # Roadmap
 * Using Man Pages
