@@ -67,7 +67,7 @@ Example: `$ more file.txt`
     $ find <dir> -iname "Search Term"
 Search for all files ending with **.txt** on the **Desktop**  
 Example:`$ find ~/Desktop -name "*.txt"`  
-##### Search
+###### Search
     $ mdfind
 
 ## Misc  
