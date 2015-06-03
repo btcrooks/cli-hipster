@@ -9,7 +9,7 @@ This cheat sheet is intended for **Mac OS X** users. Some commands may differ on
     $ cd ~/Desktop
 ###### Up one level  
     $ cd ../
-
+    
 ## Managing Directories and Files
 ###### List Directories  
     $ ls
