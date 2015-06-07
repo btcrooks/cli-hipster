@@ -67,6 +67,10 @@ Example: `$ more file.txt`
     $ find <dir> -iname "Search Term"
 Search for all files ending with **.txt** on the **Desktop**  
 Example:`$ find ~/Desktop -name "*.txt"`  
+###### Search within files
+    $ grep -r 'Search string' path/to/search
+Search for files containing `Hello World` on the desktop and return results in color.  
+Example: `$ grep -r --color 'Hello Wordl' ~/Desktop`  
 ###### Search
     $ mdfind
 
