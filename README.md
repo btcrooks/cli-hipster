@@ -52,8 +52,8 @@ Example: `$ echo "New text to append." >> existing_file.txt`
 
 ###### Directory  
     $ mkdir directory_name
-To create a new directory with spaces in the file name, use back slashes `\` to escape each spaces.
-Example" `$ mkdir directory\ with\ spaces`
+To create a new directory with spaces in the file name, use back slashes `\` to escape each spaces.  
+Example" `$ mkdir directory\ with\ spaces`  
 
 ### View
 ###### View contents of a file containing plain text.
