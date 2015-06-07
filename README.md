@@ -1,6 +1,7 @@
 # cli-hipster  
 Cheat sheet of common bash/shell commands.  
 This cheat sheet is intended for **Mac OS X** users. Some commands may differ on Linux.  
+Note: `$` denotes the terminal prompt. Do **NOT** type them as part of your code.
 
 ## Navigation  
 ###### Change Directory  
