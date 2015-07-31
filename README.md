@@ -10,6 +10,8 @@ Note: `$` denotes the terminal prompt. Do **NOT** type them as part of your code
     $ cd ~/Desktop
 ###### Up one level  
     $ cd ../
+###### Navigate to home directory
+    $ cd
     
 ## Managing Directories and Files
 ###### List Directories  
@@ -75,17 +77,24 @@ Example: `$ grep -r --color 'Hello Wordl' ~/Desktop`
 ###### Search
     $ mdfind
 
-## Misc  
+## Shortcuts & Tips  
 ###### Last command  
     [Up Arrow]
 ###### Autocompletion  
-    [tab]  
+    [tab]
+###### Clear inputted text
+    [ctrl + U]
+###### Delete Word (forward)
+    [esc + D]
+###### Delete Word (backward)
+    [ctrl + W]
 ###### Home Directory  
     "~/"
 ###### Prepend Previous Command  
     $ <command> !!
 ###### Append Previous Command
     $ !! <command>
+
 
 # Roadmap
 * Table of Contents
