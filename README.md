@@ -98,5 +98,6 @@ Example: `$ grep -r --color 'Hello Wordl' ~/Desktop`
 
 # Roadmap
 * Table of Contents
-* Using Man Pages
-* Using wildcards `*`
+* How to use Man Pages
+* How to use wildcards `*`
+* How to use regex (Regular Expressions: [0-9])
