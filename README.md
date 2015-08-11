@@ -78,7 +78,7 @@ Example: `$ grep -r --color 'Hello Wordl' ~/Desktop`
     $ mdfind
 
 ### System Processes
-###### View and update all running processes  
+###### View all running processes live
     $ top  
 ###### Display all running processes
     $ ps aux
