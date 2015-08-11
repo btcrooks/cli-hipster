@@ -82,10 +82,10 @@ Example: `$ grep -r --color 'Hello Wordl' ~/Desktop`
     $ top  
 ###### Display all running processes
     $ ps aux
-Display all processes and pipe into less
-Example: `$ ps aux | less`
-Pair with grep to search for specific processes
-Example:  `$ ps aux | grep sys* | less`
+Display all processes and pipe into less  
+Example: `$ ps aux | less`  
+Pair with grep to search for specific processes  
+Example:  `$ ps aux | grep sys* | less`  
 
 ## Shortcuts & Tips  
 ###### Last command  
