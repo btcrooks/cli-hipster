@@ -73,7 +73,7 @@ Example:`$ find ~/Desktop -name "*.txt"`
 ###### Search within files
     $ grep -r 'Search string' path/to/search
 Search for files containing `Hello World` on the desktop and return results in color.  
-Example: `$ grep -r --color 'Hello Wordl' ~/Desktop`  
+Example: `$ grep -r --color 'Hello World' ~/Desktop`  
 ###### Search
     $ mdfind
 
@@ -82,9 +82,10 @@ Example: `$ grep -r --color 'Hello Wordl' ~/Desktop`
     $ top  
 ###### Display all running processes
     $ ps aux
-Display all processes and pipe into less  
+Display all processes and pipe into `less`  
 Example: `$ ps aux | less`  
-Pair with grep to search for specific processes  
+  
+Display processes, pipe into `grep` searching for processes that start with sys and pipe into `less`.  
 Example:  `$ ps aux | grep sys* | less`  
 
 ## Shortcuts & Tips  
