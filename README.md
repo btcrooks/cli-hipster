@@ -50,7 +50,7 @@ Note: `$` denotes the terminal prompt. Do **NOT** type them as part of your code
     $ touch file.txt
 ###### Create a file with text  
     $ echo "Some text here" > some_file.txt
-If the file name exists, bash will overwrite the existing file with the new text. To **append** data to an existing file, use a double cheveron `>>`.  
+If the file name exists, bash will overwrite the existing file with the new text. To **append** data to an existing file, use double cheverons `>>`.  
 Example: `$ echo "New text to append." >> existing_file.txt`
 
 ###### Directory  
