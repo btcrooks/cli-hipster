@@ -113,4 +113,4 @@ Example:  `$ ps aux | grep sys* | less`
 * Table of Contents
 * How to use Man Pages
 * How to use wildcards `*`
-* How to use regex (Regular Expressions: [0-9])
+* How to use regular expressions
