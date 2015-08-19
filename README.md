@@ -67,9 +67,9 @@ Example: `$ more file.txt`
 
 ### Search
 ###### Search for directories  
-    $ find "path/to/search" "Directory_Name"  
+    $ find /path/to/search "Directory_Name"  
 ###### Search for files within a directory
-    $ find "path/to/search" -iname "File_Name"
+    $ find /path/to/search -iname "File_Name"
 Search for all files ending with **.txt** on the **Desktop**  
 Example:`$ find ~/Desktop -name "*.txt"`  
 ###### Search within files
