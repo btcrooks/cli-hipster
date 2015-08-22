@@ -71,7 +71,10 @@ Example: `$ more file.txt`
 ###### Search for files within a directory
     $ find /path/to/search -iname "File_Name"
 Search for all files ending with **.txt** on the **Desktop**  
-Example:`$ find ~/Desktop -name "*.txt"`  
+Example: `$ find ~/Desktop -name "*.txt"`  
+  
+List all files in current and sub directorie(s)  
+Example: `$ find .`  
 ###### Search within files
     $ grep -r 'Search string' path/to/search
 Search for files containing `Hello World` on the desktop and return results in color.  
