@@ -111,7 +111,10 @@ Example:  `$ ps aux | grep sys* | less`
     $ <command> !!
 ###### Append Previous Command
     $ !! <command>
-
+###### Get items from your clipboard
+    $ pbpaste  
+###### Send items to your clipboard
+    $ pbcopy  
 
 # Roadmap
 * Table of Contents
