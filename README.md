@@ -69,10 +69,11 @@ Example: `$ more file.txt`
 ###### Search for directories  
     $ find /path/to/search "Directory_Name"  
 ###### Search for files within a directory
-    $ find /path/to/search -iname "File_Name"
+    $ find /path/to/search -iname "File_Name"  
+Note: Use `-name` to match case exactly. Use `-iname` for case insensetive search.  
+
 Search for all files ending with **.txt** on the **Desktop**  
 Example: `$ find ~/Desktop -iname "*.txt"`  
-Note: Use `-name` to match case exactly. Use `-iname` to ignore case altogether.  
   
 List all files in current and sub directorie(s)  
 Example: `$ find .`  
