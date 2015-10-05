@@ -118,7 +118,8 @@ Example:  `$ ps aux | grep sys* | less`
     $ pbcopy  
 
 # Roadmap
-* Table of Contents
-* How to use Man Pages
-* How to use wildcards `*`
-* How to use regular expressions  
+- [ ] Table of Contents
+- [ ] How to use Man Pages
+- [ ] How to use wildcards `*`
+- [ ] How to use regular expressions  
+- [ ] How to do basic customization {i.e .bash_profile}
