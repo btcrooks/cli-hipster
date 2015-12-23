@@ -117,6 +117,10 @@ Example:  `$ ps aux | grep sys* | less`
 ###### Send items to your clipboard
     $ pbcopy  
 
+## [NPM - Node Package Manager](https://www.npmjs.com/)  
+###### List Installed Packages
+    $ npm ls --depth=0
+
 # Roadmap
 - [ ] Table of Contents
 - [ ] How to use Man Pages
