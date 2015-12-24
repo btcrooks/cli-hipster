@@ -58,6 +58,15 @@ Example: `$ echo "New text to append." >> existing_file.txt`
 To create a new directory with spaces in the file name, use back slashes `\` to escape each spaces.  
 Example" `$ mkdir directory\ with\ spaces`  
 
+To create a new directory and cd to that directory in one shot, use
+```bash
+$ mkdir new_directory && cd new_directory
+
+# or use the most recent parameter variable: $_
+
+$ mkdir new_directory && cd $_
+```
+
 ### View
 ###### View contents of a file containing plain text.
     $ less file.txt
