@@ -11,52 +11,83 @@ Note: `$` denotes the terminal prompt. Do **NOT** type them as part of your code
 ###### Up one level  
     $ cd ../
 ###### Navigate to home directory
-    $ cd
-    
+```bash
+$ cd
+```
+
 ## Managing Directories and Files
 ###### List Directories  
-    $ ls
+```bash
+$ ls
+```
 ###### View Current Working Directory  
-    $ pwd
+```bash
+$ pwd
+```
 
 ### Copy
 ###### File
-    $ cp file.txt
+```bash
+$ cp file.txt
+```
 ###### Directory
-    $ cp path/to/directory
+```bash
+$ cp path/to/directory
+```
 
 ### Move
 ###### File
-    $ mv file.txt new_dir/file.txt
+```bash
+$ mv file.txt new_dir/file.txt
+```
 ###### Directory
-    $ mv directory /new/directory
+```bash
+$ mv directory /new/directory
+```
 
 ### Rename
 ###### File
-    $ mv file.txt new.txt
+```bash
+$ mv file.txt new.txt
+```
 ###### Directory
-    $ mv directory new_directory_name
+```bash
+$ mv directory new_directory_name
+```
 
 ### Delete
 ###### File
-    $ rm file.txt
+```bash
+$ rm file.txt
+```
 ###### All Text Files
-    $ rm *.txt
+```bash
+$ rm *.txt
+```
 ###### Directory
-    $ rm -rf directory/
+```bash
+$ rm -rf directory/
+```
 
-### Create  
-###### Create an empty file  
-    $ touch file.txt
-###### Create a file with text  
-    $ echo "Some text here" > some_file.txt
+### Create
+###### Create an empty file
+```bash
+$ touch file.txt
+```
+###### Create a file with text
+```bash
+$ echo "Some text here" > some_file.txt
+```
+
 If the file name exists, bash will overwrite the existing file with the new text. To **append** data to an existing file, use double cheverons `>>`.  
 Example: `$ echo "New text to append." >> existing_file.txt`
 
-###### Directory  
-    $ mkdir directory_name
-To create a new directory with spaces in the file name, use back slashes `\` to escape each spaces.  
-Example" `$ mkdir directory\ with\ spaces`  
+###### Directory
+```bash
+$ mkdir directory_name
+```
+To create a new directory with spaces in the file name, use a back slash **`\`** to escape each spaces.  
+Example: `$ mkdir directory\ with\ spaces`  
 
 To create a new directory and cd to that directory in one shot, use
 ```bash
@@ -91,8 +122,9 @@ Example: `$ find .`
 Search for files containing `Hello World` on the desktop and return results in color.  
 Example: `$ grep -r --color 'Hello World' ~/Desktop`  
 ###### Search
-    $ mdfind
-
+```bash
+$ mdfind
+```
 ### System Processes
 ###### View all running processes live
     $ top  
@@ -104,35 +136,33 @@ Example: `$ ps aux | less`
 Display processes, pipe into `grep` searching for processes that start with sys and pipe into `less`.  
 Example:  `$ ps aux | grep sys* | less`  
 
-## Shortcuts & Tips  
-###### Last command  
-    [Up Arrow]
-###### Autocompletion  
-    [tab]
-###### Clear inputted text
-    [ctrl + U]
-###### Delete Word (forward)
-    [esc + D]
-###### Delete Word (backward)
-    [ctrl + W]
-###### Home Directory  
-    "~/"
-###### Prepend Previous Command  
-    $ <command> !!
-###### Append Previous Command
-    $ !! <command>
-###### Get items from your clipboard
-    $ pbpaste  
-###### Send items to your clipboard
-    $ pbcopy  
+## Shortcuts & Tips
+###### Keyboard commands
+Note: `⌃` denotes the control button.  
 
-## [NPM - Node Package Manager](https://www.npmjs.com/)  
-###### List Installed Packages
-    $ npm ls --depth=0
+Last command: `⇧  ( Up Arrow )`  
+Autocompletion: `TAB`  
+Clear inputted text: `⌃U`  
+Delete Word (forward): `ESC + D`  
+Delete Word (backward): `⌃W`  
+
+###### Bash Commands
+Home Directory: "~/"  
+Prepend Previous Command: `$ <command> !!`  
+Append Previous Command: `$ !! <command>`  
+Send items to your clipboard: `$ <command> | pbcopy`  
+Get items from your clipboard: `$ pbpaste > file.txt`  
+
+## [NPM - Node Package Manager](https://www.npmjs.com/)
+###### List Installed Packages, sans dependency tree.
+```bash
+$ npm ls --depth=0
+```
+Use the `-g` flag for globally installed packages.  
 
 # Roadmap
 - [ ] Table of Contents
 - [ ] How to use Man Pages
 - [ ] How to use wildcards `*`
-- [ ] How to use regular expressions  
+- [ ] How to use regular expressions
 - [ ] How to do basic customization {i.e .bash_profile}
