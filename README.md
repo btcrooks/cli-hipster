@@ -127,9 +127,13 @@ $ mdfind
 ```
 ### System Processes
 ###### View all running processes live
-    $ top  
+```bash
+$ top
+```
 ###### Display all running processes
-    $ ps aux
+```bash
+$ ps aux
+```
 Display all processes and pipe into `less`  
 Example: `$ ps aux | less`  
   
@@ -142,9 +146,10 @@ Note: `⌃` denotes the control button.
 
 Last command: `⇧  ( Up Arrow )`  
 Autocompletion: `TAB`  
-Clear inputted text: `⌃U`  
-Delete Word (forward): `ESC + D`  
-Delete Word (backward): `⌃W`  
+Clear inputted text: `⌃u`  
+Delete Word (forward): `ESC + d`  
+Delete Word (backward): `⌃w`  
+Find previously used commnad: `⌃r`  
 
 ###### Bash Commands
 Home Directory: "~/"  
