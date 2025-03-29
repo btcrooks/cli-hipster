@@ -1,144 +1,149 @@
 # cli-hipster  
 Cheat sheet of common bash/shell commands.  
 This cheat sheet is intended for **Mac OS X** users. Some commands may differ on Linux.  
-Note: `$` denotes the terminal prompt. Do **NOT** type them as part of your code.
 
 ## Navigation  
-###### Change Directory  
-    $ cd <directory>
-###### User/Desktop  
-    $ cd ~/Desktop
-###### Up one level  
-    $ cd ../
+###### Change Directory
+```bash
+cd <directory>
+```
+###### User/Desktop
+```bash
+cd ~/Desktop
+```
+###### Up one level
+```bash
+cd ../
+```
 ###### Navigate to home directory
 ```bash
-$ cd
+cd
 ```
 
 ## Managing Directories and Files
 ###### List Directories  
 ```bash
-$ ls
+ls
 ```
 ###### View Current Working Directory  
 ```bash
-$ pwd
+pwd
 ```
 
 ### Copy
 ###### File
 ```bash
-$ cp file.txt
+cp file.txt
 ```
 ###### Directory
 ```bash
-$ cp path/to/directory
+cp path/to/directory
 ```
 
 ### Move
 ###### File
 ```bash
-$ mv file.txt new_dir/file.txt
+mv file.txt new_dir/file.txt
 ```
 ###### Directory
 ```bash
-$ mv directory /new/directory
+mv directory /new/directory
 ```
 
 ### Rename
 ###### File
 ```bash
-$ mv file.txt new.txt
+mv file.txt new.txt
 ```
 ###### Directory
 ```bash
-$ mv directory new_directory_name
+mv directory new_directory_name
 ```
 
 ### Delete
 ###### File
 ```bash
-$ rm file.txt
+rm file.txt
 ```
 ###### All Text Files
 ```bash
-$ rm *.txt
+rm *.txt
 ```
 ###### Directory
 ```bash
-$ rm -rf directory/
+rm -rf directory/
 ```
 
 ### Create
 ###### Create an empty file
 ```bash
-$ touch file.txt
+touch file.txt
 ```
 ###### Create a file with text
 ```bash
-$ echo "Some text here" > some_file.txt
+echo "Some text here" > some_file.txt
 ```
 
 If the file name exists, bash will overwrite the existing file with the new text. To **append** data to an existing file, use double cheverons `>>`.  
-Example: `$ echo "New text to append." >> existing_file.txt`
+Example: `echo "New text to append." >> existing_file.txt`
 
 ###### Directory
 ```bash
-$ mkdir directory_name
+mkdir directory_name
 ```
 To create a new directory with spaces in the file name, use a back slash **`\`** to escape each spaces.  
-Example: `$ mkdir directory\ with\ spaces`  
+Example: `mkdir directory\ with\ spaces`  
 
 To create a new directory and cd to that directory in one shot, use
 ```bash
-$ mkdir new_directory && cd new_directory
+mkdir new_directory && cd new_directory
 
 # or use the most recent parameter variable: $_
 
-$ mkdir new_directory && cd $_
+mkdir new_directory && cd $_
 ```
 
 ### View
 ###### View contents of a file containing plain text.
-    $ less file.txt
+    less file.txt
 Press `q` to exit less. Use `more` or `cat` to display file contents within the prompt window.  
-Example: `$ more file.txt`
+Example: `more file.txt`
 
 
 ### Search
 ###### Search for directories  
-    $ find /path/to/search "Directory_Name"  
+    find /path/to/search "Directory_Name"  
 ###### Search for files within a directory
-    $ find /path/to/search -iname "File_Name"  
+    find /path/to/search -iname "File_Name"  
 Note: Use `-name` to match case exactly. Use `-iname` for case insensetive search.  
 
 Search for all files ending with **.txt** on the **Desktop**  
-Example: `$ find ~/Desktop -iname "*.txt"`  
+Example: `find ~/Desktop -iname "*.txt"`  
   
 List all files in current and sub directorie(s)  
-Example: `$ find .`  
+Example: `find .`  
 ###### Search within files
-    $ grep -r 'Search string' path/to/search
+    grep -r 'Search string' path/to/search
 Search for files containing `Hello World` on the desktop and return results in color.  
-Example: `$ grep -r --color 'Hello World' ~/Desktop`  
+Example: `grep -r --color 'Hello World' ~/Desktop`  
 ###### Search
 ```bash
-$ mdfind
+mdfind
 ```
 ### System Processes
 ###### View all running processes live
 ```bash
-$ top
+top
 ```
 ###### Display all running processes
 ```bash
-$ ps aux
+ps aux
 ```
 Display all processes and pipe into `less`  
-Example: `$ ps aux | less`  
+Example: `ps aux | less`  
   
 Display processes, pipe into `grep` searching for processes that start with sys and pipe into `less`.  
-Example:  `$ ps aux | grep sys* | less`  
+Example:  `ps aux | grep sys* | less`  
 
 ## Shortcuts & Tips
 ###### Keyboard commands
@@ -153,15 +158,15 @@ Find previously used commnad: `⌃r`
 
 ###### Bash Commands
 Home Directory: "~/"  
-Prepend Previous Command: `$ <command> !!`  
-Append Previous Command: `$ !! <command>`  
-Send items to your clipboard: `$ <command> | pbcopy`  
-Get items from your clipboard: `$ pbpaste > file.txt`  
+Prepend Previous Command: `<command> !!`  
+Append Previous Command: `!! <command>`  
+Send items to your clipboard: `<command> | pbcopy`  
+Get items from your clipboard: `pbpaste > file.txt`  
 
 ## [NPM - Node Package Manager](https://www.npmjs.com/)
 ###### List Installed Packages, sans dependency tree.
 ```bash
-$ npm ls --depth=0
+npm ls --depth=0
 ```
 Use the `-g` flag for globally installed packages.  
 
